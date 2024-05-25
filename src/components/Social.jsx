@@ -16,7 +16,7 @@ const Social = () => {
       </a>
       <a
         className="border-black border-2 px-2 rounded-lg hover:text-white hover:bg-black"
-        href="http://github.com/divyanshdj"
+        href="https://www.linkedin.com/in/divyansh-jain-29712726b/"
         target="_blank"
       >
         <div className="flex flex-row justify-center items-center gap-1">
