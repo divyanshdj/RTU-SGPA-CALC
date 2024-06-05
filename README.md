@@ -11,7 +11,7 @@
 
   The RTU SGPA Calculator is a web application developed using React, Vite, Tailwind CSS, and JavaScript. It provides a user-friendly interface for students to input their semester grades and credits, automatically calculating the SGPA based on RTU's grading system. The tool supports all semesters and subjects, making it an essential utility for RTU students.
 
-  Explore Here :   <a href="https://todo-work-list.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
+  Explore Here :   <a href="https://rtu-sgpa-calc.vercel.app/" target="_blank"><strong>➥ Live Demo</strong></a>
 
 ## Features
 
