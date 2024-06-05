@@ -1,8 +1,8 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/Todo-List)
-  ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/Todo-List)
-  ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/Todo-List?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/RTU-SGPA-CALC)
+  ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/RTU-SGPA-CALC)
+  ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/RTU-SGPA-CALC?style=social)
 
 </div>
 <div align="left">
