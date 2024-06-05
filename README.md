@@ -1,82 +1,44 @@
-# RTU SGPA Calculator
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/Todo-List)
+  ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/Todo-List)
+  ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/Todo-List?style=social)
 
-## About
-The RTU SGPA Calculator is a web application developed using React, Vite, Tailwind CSS, and JavaScript. It provides a user-friendly interface for students to input their semester grades and credits, automatically calculating the SGPA based on RTU's grading system. The tool supports all semesters and subjects, making it an essential utility for RTU students.
+</div>
+<div align="left">
+
+  # RTU SGPA Calculator
+
+  The RTU SGPA Calculator is a web application developed using React, Vite, Tailwind CSS, and JavaScript. It provides a user-friendly interface for students to input their semester grades and credits, automatically calculating the SGPA based on RTU's grading system. The tool supports all semesters and subjects, making it an essential utility for RTU students.
+
+  Explore Here :   <a href="https://todo-work-list.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
 
 ## Features
+
 - **User-Friendly Interface**: Simple and intuitive design for easy input of grades and credits.
 - **Automatic Calculation**: Computes the SGPA based on RTU's grading system.
 - **Support for All Semesters and Subjects**: Versatile tool accommodating all semesters and subjects within the RTU curriculum.
 - **Responsive Design**: Ensures usability across various devices and screen sizes.
 - **Built with Modern Technologies**: Utilizes React, Vite, and Tailwind CSS for a smooth and efficient user experience.
 
-## Prerequisites
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
+</div>
 
-## Project Structure
-- `src/`
-  - `components/`
-    - `GradeInput.js`: Component for inputting grades.
-    - `SGPACalculator.js`: Main calculator component.
-  - `App.js`: Main app component.
-  - `index.js`: Entry point of the application.
-  - `styles/`
-    - `tailwind.css`: Custom Tailwind CSS styles.
-- `public/`
-  - `index.html`: The main HTML file.
-- `package.json`: The npm package configuration file.
-- `vite.config.js`: Configuration file for Vite.
-
-## Steps to Run
-1. **Clone the Repository:**
-    ```bash
-    git clone <repository-url>
-    cd rtu-sgpa-calculator
-    ```
-2. **Install the Dependencies:**
-    ```bash
-    npm install
-    ```
-3. **Run the Application:**
-    ```bash
-    npm run dev
-    ```
-4. **Open the Application:**
-    - Open your web browser and go to `http://localhost:3000` to view the calculator.
-
-## Usage
-- Enter the grades and credits for each subject in the provided fields.
-- The SGPA will be calculated automatically based on the entered values.
-- Use the "Add Subject" button to include more subjects as needed.
-
-## Expected Output
-- A web page where users can input their semester grades and credits.
-- Automatic display of the calculated SGPA based on the input data.
-
-## Features in Detail
-### User-Friendly Interface
-- **Grade Input Fields**: Allows students to enter grades and credits for each subject.
-- **Real-Time Calculation**: SGPA is computed and displayed in real-time as inputs are entered.
-
-### Responsive Design
-- Tailwind CSS ensures the application is responsive and looks great on all devices.
-
-### Built with Modern Technologies
-- **React**: For building the user interface.
-- **Vite**: For a fast and efficient development environment.
-- **Tailwind CSS**: For modern and responsive styling.
-
-## Troubleshooting
-- **Development server not starting**: Ensure that you have installed all dependencies using `npm install`.
-- **Styles not applied**: Verify that Tailwind CSS is correctly configured in your `tailwind.config.js` and imported in your `index.js` file.
+<div align="left">
 
 ## Contributions
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## License
-This project is licensed under the MIT License.
+## Contact Me
+  
+  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-jain-29712726b)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:divyanshjain749@gmail.com)
+  [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/divyansh_dj3)
+  [![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/divyanshdj)
+  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/mr_divyansh_dj/)
+  
+</div>
 
-## Contact
-For any questions or feedback, please contact [Your Name] at [your-email@example.com].
+## Support
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/djboss88347) 
 
