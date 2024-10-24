@@ -13,7 +13,7 @@ const SemesterSelect = ({ semester, setSemester }) => {
   };
 
   return (
-    <div className="max-w-xs mx-auto mt-8">
+    <div className="max-w-xs mx-auto mt-2">
       <label htmlFor="semester" className="block text-lg font-medium text-gray-800 mb-2">
         Select Semester
       </label>
