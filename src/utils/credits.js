@@ -101,3 +101,15 @@ const credits = [
 ];
 
 export default credits;
+
+
+export const creditsTillSem = {
+  1: 20.5,
+  2: 41,
+  3: 65.5,
+  4: 89,
+  5: 112,
+  6: 135.5,
+  7: 150.5,
+  8: 167,
+};
