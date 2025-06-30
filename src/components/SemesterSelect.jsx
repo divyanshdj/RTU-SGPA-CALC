@@ -1,3 +1,4 @@
+import { BiSolidSchool } from "react-icons/bi";
 import credits from "../utils/credits";
 
 // Helper function to convert number to Roman numeral
@@ -14,8 +15,9 @@ const SemesterSelect = ({ semester, setSemester }) => {
 
   return (
     <div className="max-w-xs mx-auto mt-2">
-      <label htmlFor="semester" className="block text-lg font-medium text-gray-800 mb-2">
-        Select Semester
+      <label htmlFor="semester" className="text-xl font-semibold text-gray-800 mb-4 flex items-center justify-center text-center">
+        <BiSolidSchool className="mr-2 text-blue-600" />
+        Select Semester :
       </label>
       <select
         id="semester"
