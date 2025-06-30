@@ -49,6 +49,15 @@ const SGPACalc = () => {
     setReset(false);
   }
 
+  // Track window width for responsive button text
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -97,7 +106,7 @@ const SGPACalc = () => {
                 className="flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-200"
               >
                 <FaCalculator className="mr-2" />
-                Calculate SGPA
+                {windowWidth < 500 ? "Calculate" : "Calculate SGPA"}
               </button>
               {reset && (
                 <button
