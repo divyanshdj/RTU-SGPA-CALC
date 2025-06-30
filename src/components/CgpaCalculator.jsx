@@ -94,7 +94,7 @@ const CgpaCalculator = () => {
                   max="10"
                   step="0.01"
                   placeholder="e.g. 8.5"
-                  className="w-full border border-gray-300 rounded-lg py-3 px-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  className={`w-full border border-gray-300 rounded-lg py-3 px-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${error && !cgpaLastSemester ? 'border-2 border-red-500' : ''}`}
                 />
                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                   <FaUniversity className="text-gray-400" />
@@ -114,7 +114,7 @@ const CgpaCalculator = () => {
                   max="10"
                   step="0.01"
                   placeholder="e.g. 9.0"
-                  className="w-full border border-gray-300 rounded-lg py-3 px-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  className={`w-full border border-gray-300 rounded-lg py-3 px-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${error && !sgpaCurrentSemester ? 'border-2 border-red-500' : ''}`}
                 />
                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                   <FaUniversity className="text-gray-400" />

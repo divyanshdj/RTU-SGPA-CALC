@@ -1,44 +1,61 @@
 <div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/RTU-SGPA-CALC)
-  ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/RTU-SGPA-CALC)
-  ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/RTU-SGPA-CALC?style=social)
 
-</div>
-<div align="left">
+# 🎓 RTU SGPA Calculator
 
-  # RTU SGPA Calculator
+![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/RTU-SGPA-CALC)
+![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/RTU-SGPA-CALC)
+![GitHub stars](https://img.shields.io/github/stars/divyanshdj/RTU-SGPA-CALC?style=social)
 
-  The RTU SGPA Calculator is a web application developed using React, Vite, Tailwind CSS, and JavaScript. It provides a user-friendly interface for students to input their semester grades and credits, automatically calculating the SGPA based on RTU's grading system. The tool supports all semesters and subjects, making it an essential utility for RTU students.
+🚀 A modern web app to calculate your **SGPA & CGPA** with ease  
+📚 Built for students of **Rajasthan Technical University (RTU)**
 
-  Explore Here :   <a href="https://rtu-sgpa-calc.vercel.app/" target="_blank"><strong>➥ Live Demo</strong></a>
-
-## Features
-
-- **User-Friendly Interface**: Simple and intuitive design for easy input of grades and credits.
-- **Automatic Calculation**: Computes the SGPA based on RTU's grading system.
-- **Support for All Semesters and Subjects**: Versatile tool accommodating all semesters and subjects within the RTU curriculum.
-- **Responsive Design**: Ensures usability across various devices and screen sizes.
-- **Built with Modern Technologies**: Utilizes React, Vite, and Tailwind CSS for a smooth and efficient user experience.
+[🔗 Live Demo](https://rtu-sgpa-calc.vercel.app/)
 
 </div>
 
-<div align="left">
+---
 
-## Contributions
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+## 📌 Overview
 
-## Contact Me
-  
-  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-jain-29712726b)
-  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:divyanshjain749@gmail.com)
-  [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/divyansh_dj3)
-  [![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/divyanshdj)
-  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/mr_divyansh_dj/)
-  
-</div>
+The **RTU SGPA Calculator** is a lightweight, responsive web application built with **React**, **Vite**, **Tailwind CSS**, and **JavaScript**. It allows RTU students to quickly compute their **SGPA** and **CGPA** based on official credit and grading systems.
 
-## Support
+---
 
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/djboss88347) 
+## ✨ Features
 
+- ✅ **User-Friendly Interface** – Clean UI for seamless interaction
+- 🧮 **Automatic SGPA Calculation** – Based on RTU’s official grading structure
+- 🎯 **CGPA Estimation** – Combines previous CGPA with current SGPA
+- 📚 **Supports All Semesters** – Designed for all 8 semesters
+- 📱 **Responsive Design** – Works smoothly on mobile, tablet, and desktop
+- ⚡ **Fast & Lightweight** – Built with modern tech for performance
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Icons:** React Icons  
+- **Deployment:** Vercel  
+
+---
+
+## 📷 Preview
+
+> (Add Later...)
+
+---
+
+## 🧑‍💻 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/divyanshdj/RTU-SGPA-CALC.git
+
+# Install dependencies
+cd RTU-SGPA-CALC
+npm install
+
+# Start the dev server
+npm start

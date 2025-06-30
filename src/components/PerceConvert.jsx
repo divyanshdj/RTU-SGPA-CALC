@@ -85,7 +85,7 @@ const PerceConvert = () => {
                   value={cgpa}
                   onChange={(e) => setCgpa(e.target.value)}
                   placeholder="e.g. 8.5"
-                  className="w-full border border-gray-300 rounded-lg py-3 px-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  className={`w-full border border-gray-300 rounded-lg py-3 px-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${error && !cgpa ? 'border-red-500 border-2' : ''}`}
                   min="0"
                   max="10"
                   step="0.01"
