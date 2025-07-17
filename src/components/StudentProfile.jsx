@@ -64,8 +64,8 @@ const StudentProfile = () => {
       {/* Header */}
       <div className="mb-10 text-center">
         <div className="inline-flex items-center mb-4 text-blue-900">
-          <FaUserGraduate className="text-4xl mr-3" />
-          <h1 className="text-3xl font-bold">Academic Tracker</h1>
+          <FaUserGraduate className="text-2xl md:text-4xl mr-3" />
+          <h1 className="text-2xl md:text-3xl font-bold">Academic Tracker</h1>
         </div>
         <div className="bg-blue-50 p-4 rounded-lg shadow-sm max-w-2xl mx-auto text-left">
           <div className="flex items-center flex-col justify-center md:flex-row md:items-start">

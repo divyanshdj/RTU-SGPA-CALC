@@ -6,8 +6,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/RTU-SGPA-CALC)
 ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/RTU-SGPA-CALC?style=social)
 
-🚀 A comprehensive academic companion for **Rajasthan Technical University (RTU)** students  
-📊 Calculate grades, track progress, and manage your academic profile
+🚀 A comprehensive academic companion for **Rajasthan Technical University (RTU)** students used to Calculate grades, track progress, and manage your academic profile
 
 [🔗 Live Demo](https://rtu-sgpa-calc.vercel.app/)
 
@@ -29,7 +28,7 @@ The **RTU Academic Toolkit** is a responsive web application built with **React*
 
 ### 🧮 Calculation Tools
 - ✅ **SGPA Calculator** - Compute semester grades instantly
-- 🎯 **CGPA Estimator** - Track overall academic performance
+- 🎯 **CGPA Calculator** - Track overall academic performance
 - 🔄 **Percentage Converter** - Convert between SGPA and percentage
 
 ### 📚 Student Profile
@@ -41,7 +40,6 @@ The **RTU Academic Toolkit** is a responsive web application built with **React*
 ### 🎨 UX Features
 - 📱 **Fully Responsive** - Works on all devices
 - 🎨 **Clean Interface** - Intuitive and distraction-free
-- ⚡ **Blazing Fast** - Optimized performance
 
 ---
 
