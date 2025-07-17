@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaUserGraduate } from 'react-icons/fa';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,12 @@ const Header = () => {
               to="/" 
               className={`px-1 py-2 border-b-2 text-base font-semibold transition-colors ${location.pathname === '/' ? 'border-blue-600 text-blue-700' : 'border-transparent text-gray-700 hover:text-blue-600 hover:border-blue-300'}`}
             >
+              Home
+            </Link>
+            <Link 
+              to="/sgpa" 
+              className={`px-1 py-2 border-b-2 text-base font-semibold transition-colors ${location.pathname === '/sgpa' ? 'border-blue-600 text-blue-700' : 'border-transparent text-gray-700 hover:text-blue-600 hover:border-blue-300'}`}
+            >
               SGPA Calc
             </Link>
             <Link 
@@ -42,6 +49,12 @@ const Header = () => {
               className={`px-1 py-2 border-b-2 text-base font-semibold transition-colors ${location.pathname === '/cgpa' ? 'border-blue-600 text-blue-700' : 'border-transparent text-gray-700 hover:text-blue-600 hover:border-blue-300'}`}
             >
               CGPA Calc
+            </Link>
+            <Link 
+              to="/profile" 
+              className={`px-1 py-2 border-b-2 text-base font-semibold transition-colors ${location.pathname === '/profile' ? 'border-blue-600 text-blue-700' : 'border-transparent text-gray-700 hover:text-blue-600 hover:border-blue-300'}`}
+            >
+                Profile
             </Link>
           </nav>
 
@@ -65,11 +78,17 @@ const Header = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-50' : 'max-h-0'}`}>
+      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-72' : 'max-h-0'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 border-t border-gray-200 bg-white">
           <Link
             to="/"
             className={`block px-3 py-3 rounded text-lg font-semibold ${location.pathname === '/' ? 'bg-blue-50 text-blue-700' : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'}`}
+          >
+            Home
+          </Link>
+          <Link
+            to="/sgpa"
+            className={`block px-3 py-3 rounded text-lg font-semibold ${location.pathname === '/sgpa' ? 'bg-blue-50 text-blue-700' : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'}`}
           >
             SGPA Calculator
           </Link>
@@ -84,6 +103,12 @@ const Header = () => {
             className={`block px-3 py-3 rounded text-lg font-semibold ${location.pathname === '/cgpa' ? 'bg-blue-50 text-blue-700' : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'}`}
           >
             CGPA Calculator
+          </Link>
+          <Link
+            to="/profile"
+            className={`block px-3 py-3 rounded text-lg font-semibold ${location.pathname === '/profile' ? 'bg-blue-50 text-blue-700' : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'}`}
+          >
+              Student Profile
           </Link>
         </div>
       </div>
